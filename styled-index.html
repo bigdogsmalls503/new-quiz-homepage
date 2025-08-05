@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Quiz Master | Fun Name Generators</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Take hilarious quizzes and discover your superhero, alien, pirate, or hillbilly name. Fun, safe, and mobile-friendly.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #fff3e0);
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p.intro {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: #555;
+    }
+    .quiz-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .quiz-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .quiz-card:hover {
+      transform: translateY(-5px);
+    }
+    .quiz-card h2 {
+      margin-top: 10px;
+      font-size: 1.4em;
+    }
+    .quiz-card p {
+      color: #666;
+      font-size: 0.95em;
+    }
+    .quiz-card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00bcd4;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .quiz-card a:hover {
+      background: #0097a7;
+    }
+    .ad-box {
+      margin: 50px 0;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 30px 10px;
+      color: #888;
+    }
+    footer a {
+      color: #888;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 New Quiz Master</h1>
+    <p class="intro">Get your silly name with one of our identity-generating quizzes. Pirate, alien, superhero, or more — take your pick!</p>
+
+    <div class="quiz-grid">
+      <div class="quiz-card">
+        <div class="emoji" style="font-size: 2em;">👽</div>
+        <h2>Alien Name Generator</h2>
+        <p>Discover your intergalactic identity with our space-age name quiz.</p>
+        <a href="alien-quiz/index.html">Take Quiz</a>
+      </div>
+      <div class="quiz-card">
+        <div class="emoji" style="font-size: 2em;">🏕️</div>
+        <h2>Hillbilly Name Generator</h2>
+        <p>Find out your wild backwoods nickname in a few silly steps.</p>
+        <a href="hillbilly-quiz/index.html">Take Quiz</a>
+      </div>
+      <div class="quiz-card">
+        <div class="emoji" style="font-size: 2em;">🦸</div>
+        <h2>Superhero Name Generator</h2>
+        <p>Unleash your inner hero with a name that packs a punch!</p>
+        <a href="superhero-quiz/index.html">Take Quiz</a>
+      </div>
+    </div>
+
+    <div class="ad-box">
+      <!-- Replace this with your real AdSense code -->
+      <p>[AdSense ad goes here]</p>
+    </div>
+
+    <footer>
+      <a href="about.html">About</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="contact.html">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
